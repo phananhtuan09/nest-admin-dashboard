@@ -1,5 +1,5 @@
 import { ConfigType, registerAs } from '@nestjs/config';
-import { getEnvValue } from '~/utils/env.util';
+import { getEnvValue } from '~/common/utils/helper';
 
 const appRegToken = 'app';
 

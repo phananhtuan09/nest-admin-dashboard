@@ -6,7 +6,7 @@ import {
   HttpStatus,
 } from '@nestjs/common';
 import { Response } from 'express';
-import { DEFAULT_RESPONSE } from '~/constants/response.constant';
+import { DEFAULT_RESPONSE } from '~/common/constants/response.constant';
 
 @Catch()
 export class CustomExceptionFilter implements ExceptionFilter {
